@@ -6,7 +6,7 @@ sudo rm /var/cache/apt/archives/lock;
 sudo rm /var/lib/dpkg/lock;
 sudo rm /var/lib/dpkg/lock-frontend;
 
-sudo apt remove gnome-keyring;
+sudo apt remove gnome-keyring -y;
 sudo apt-get install mali-x11 --reinstall -y;
 sudo apt-get install software-properties-common -y;
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -;
